@@ -6,16 +6,22 @@
 .leftdiv {
  flex-direction: column;
   
-  /* Just so it's visible */
+  
   margin:10px;
 }
 .rightdiv {
  flex-direction: column;
-  /* Grow to rest of container */
+ border: .5px outset;
+ padding: 5px;
  
-  /* Just so it's visible */
+ 
   margin:10px;
   text-align: center;
+}
+.innerrightdiv{
+  border: .5px outset;
+ padding: 5px;
+
 }
 .bottomdiv {
   
