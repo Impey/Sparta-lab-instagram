@@ -3,13 +3,13 @@
 }
 
 .leftdiv {
- flex: 1;
+ flex-direction: column;
   background: lightblue;
   /* Just so it's visible */
   margin:10px;
 }
 .rightdiv {
-  flex: 1;
+ flex-direction: column;
   /* Grow to rest of container */
   background: lightgreen;
   /* Just so it's visible */
@@ -17,11 +17,10 @@
   text-align: center;
 }
 .bottomdiv {
-  flex-direction: row;
   
+  margin:  10px;
   background: lightblue;
   /* Just so it's visible */
-  margin:10px;
-
 }
+
 
