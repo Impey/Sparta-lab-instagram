@@ -22,5 +22,9 @@
   background: lightblue;
   /* Just so it's visible */
 }
-
+ul li{
+  display: inline;
+  letter-spacing: 3px;
+  
+}
 
