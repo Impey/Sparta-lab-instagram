@@ -1,17 +1,18 @@
 .parent {
   display: flex;
+  justify-content: center;
 }
 
 .leftdiv {
  flex-direction: column;
-  background: lightblue;
+  
   /* Just so it's visible */
   margin:10px;
 }
 .rightdiv {
  flex-direction: column;
   /* Grow to rest of container */
-  background: lightgreen;
+ 
   /* Just so it's visible */
   margin:10px;
   text-align: center;
@@ -19,7 +20,7 @@
 .bottomdiv {
   
   margin:  10px;
-  background: lightblue;
+  
   /* Just so it's visible */
 }
 ul li{
@@ -27,4 +28,27 @@ ul li{
   letter-spacing: 3px;
   
 }
+
+li a {
+
+  padding: 14px 16px;
+}
+
+a {
+   text-decoration: none;
+}
+
+.button {
+  background-color: rgb(48, 48, 253); 
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 
