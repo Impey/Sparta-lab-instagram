@@ -1,0 +1,17 @@
+.parent {
+  display: flex;
+}
+
+.leftdiv {
+ flex: 1;
+  background: lightblue;
+  /* Just so it's visible */
+  margin:10px;
+}
+.rightdiv {
+  flex: 1;
+  /* Grow to rest of container */
+  background: lightgreen;
+  /* Just so it's visible */
+  margin:10px;
+}
