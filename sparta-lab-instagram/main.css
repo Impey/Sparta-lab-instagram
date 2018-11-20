@@ -1,0 +1,65 @@
+.parent {
+  display: flex;
+  justify-content: center;
+}
+
+.leftdiv {
+ flex-direction: column;
+  
+  
+  margin:10px;
+}
+.rightdiv {
+ flex-direction: column;
+ border: .5px outset;
+ padding: 5px;
+ margin:10px;
+ text-align: center;
+ 
+}
+.innerrightdiv{
+  border: .5px outset;
+ padding: 5px;
+
+}
+.bottomdiv {
+  
+  margin:  10px;
+  
+  /* Just so it's visible */
+}
+ul li{
+  display: inline;
+  letter-spacing: 3px;
+  
+}
+
+li a {
+
+  padding: 14px 16px;
+}
+
+a {
+   text-decoration: none;
+}
+
+.button {
+  background-color: rgb(48, 48, 253); 
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+@media (max-width: 75em) {
+  .leftdiv {
+  display: none;
+  }
+  }
+
+
