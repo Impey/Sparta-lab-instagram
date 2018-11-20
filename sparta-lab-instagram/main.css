@@ -13,10 +13,9 @@
  flex-direction: column;
  border: .5px outset;
  padding: 5px;
+ margin:10px;
+ text-align: center;
  
- 
-  margin:10px;
-  text-align: center;
 }
 .innerrightdiv{
   border: .5px outset;
@@ -56,5 +55,11 @@ a {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+@media (max-width: 75em) {
+  .leftdiv {
+  display: none;
+  }
+  }
 
 
