@@ -16,4 +16,12 @@
   margin:10px;
   text-align: center;
 }
+.bottomdiv {
+  flex-direction: row;
+  
+  background: lightblue;
+  /* Just so it's visible */
+  margin:10px;
+
+}
 
